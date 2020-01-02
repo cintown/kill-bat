@@ -18,11 +18,20 @@ module.exports = {
       },
       {
         text: '专栏',
-        items: [
-          { text: '算法', link: '/algorithms/' },
-          { text: 'csdn', link: '/csdn/' },
-          { text: '问题处理', link: '/problems/' },
-          { text: '面经', link: '/interview/' }
+        items: [{
+          text:'基础',
+          items:[
+              { text: '算法', link: '/algorithms/' },
+              { text: 'csdn', link: '/csdn/' }
+              ]
+        },
+          {
+            text:'更多',
+            items:[
+              { text: '问题处理', link: '/problems/' },
+              { text: '面经', link: '/interview/' }
+            ]
+          }
         ]
       } /*,
       {
