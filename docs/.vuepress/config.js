@@ -35,7 +35,7 @@ module.exports = {
     repo: 'Meidanlong/kill-bat',
     editLinks: true,
     docsDir: 'docs',
-    // editLinkText: '在 GitHub 上编辑此页',
+    editLinkText: 'GitHub',
     sidebarDepth: 3
   },
   configureWebpack: {
