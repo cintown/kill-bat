@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "node ./builds/delMarkdown.js && node ./builds/addMarkdown.js && vuepress build docs",
+    "delcomment": "node ./builds/delMarkdown.js",
+    "lint": "prettier --write 'docs/**/*.md'",
+    "release": "node scripts/release.js"
+  }
+}
