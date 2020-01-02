@@ -2,20 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32996270-bf35-4571-9de4-950ba052851c" name="Default Changelist" comment="更新git首页readme">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/aq-cache-es/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/aq-cache-mongodb/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/aq-cache-redis/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/aq-continer-docker/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/aq-designpattern-singleton/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/aq-java-basic/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/aq-java-jvm/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/aq-other-net/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/aq-queue-rabbitmq/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/aq-structure-dubbo/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/aq-structure-netty/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/aq-structure-netty/netty.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/aq-structure-spring/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/aq-structure-zookeeper/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/sidebarMap.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/sidebarMap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/algorithms/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/algorithms/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/algorithms/linkedArrary.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/algorithms/linkedArrary.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/algorithms/string.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/algorithms/string.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/algorithms/tree.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/algorithms/tree.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/csdn/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/csdn/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/csdn/jiagoushi.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/csdn/jiagoushi.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/csdn/python.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/csdn/python.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/interview/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/interview/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/interview/aliyingye.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/interview/aliyingye.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/interview/dangdangwang.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/interview/dangdangwang.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/interview/ganjiwang.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/interview/ganjiwang.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/interview/momo.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/interview/momo.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/interview/qichezhijia.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/interview/qichezhijia.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/interview/wuba.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/interview/wuba.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/points/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/points/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/points/cache.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/points/cache.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/points/container.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/points/container.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/points/designPattern.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/points/designPattern.md" afterDir="false" />
@@ -26,20 +45,24 @@
       <change beforePath="$PROJECT_DIR$/docs/points/messagequeue.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/points/messagequeue.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/points/net.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/points/net.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/points/operation.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/points/operation.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/problems/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/problems/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/problems/environment.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/problems/environment.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/questions/designPattern.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/questions/designPattern.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/questions/dubbo.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/questions/dubbo.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/questions/elasticsearch.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/questions/elasticsearch.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/questions/javaBasic.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/questions/javaBasic.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/questions/jvm.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/questions/jvm.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/questions/mongodb.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/questions/mongodb.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/questions/net.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/questions/net.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/questions/netty.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/questions/netty.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/questions/os.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/questions/os.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/questions/rabbitmq.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/questions/rabbitmq.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/questions/redis.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/questions/redis.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/questions/threads.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/questions/threads.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/questions/zookeeper.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/questions/zookeeper.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/questions/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/aq-other-os/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/questions/designPattern.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/aq-designpattern-singleton/designPattern.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/questions/dubbo.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/aq-structure-dubbo/dubbo.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/questions/elasticsearch.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/aq-cache-es/elasticsearch.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/questions/javaBasic.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/aq-java-basic/javaBasic.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/questions/jvm.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/aq-java-jvm/jvm.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/questions/mongodb.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/aq-cache-mongodb/mongodb.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/questions/net.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/aq-other-net/net.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/questions/netty.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/questions/os.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/aq-other-os/os.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/questions/rabbitmq.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/aq-queue-rabbitmq/rabbitmq.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/questions/redis.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/aq-cache-redis/redis.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/questions/threads.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/aq-java-basic/threads.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/questions/zookeeper.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/aq-structure-zookeeper/zookeeper.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/wechat/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/wechat/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,11 +74,13 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1VpEnzFNGyhtQXgLHuAwo1kkGQi" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/aq-structure-zookeeper" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -64,18 +89,22 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.CommitDialog" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\mine\vuepress\vuepress-blog-demo-master\vuepress-blog-demo-master\docs" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\mine\vuepress\vuepress-blog-demo-master\vuepress-blog-demo-master" />
-      <recent name="D:\mine\vuepress\vuepress-blog-demo-master\vuepress-blog-demo-master\docs\.vuepress\components" />
-      <recent name="D:\mine\vuepress\vuepress-blog-demo-master\vuepress-blog-demo-master\docs" />
-      <recent name="D:\mine\vuepress\vuepress-blog-demo-master\vuepress-blog-demo-master\docs\keypoints" />
-      <recent name="D:\mine\vuepress\vuepress-blog-demo-master\vuepress-blog-demo-master\docs\.vuepress" />
+      <recent name="$PROJECT_DIR$/docs/aq-structure-zookeeper" />
+      <recent name="$PROJECT_DIR$/docs/aq-structure-spring" />
+      <recent name="$PROJECT_DIR$/docs/aq-structure-netty" />
+      <recent name="$PROJECT_DIR$/docs/aq-structure-dubbo" />
+      <recent name="$PROJECT_DIR$/docs/aq-queue-rabbitmq" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/docs" />
+      <recent name="$PROJECT_DIR$/docs/AandQ/structure/zookeeper" />
+      <recent name="$PROJECT_DIR$/docs/AandQ/java/basic" />
+      <recent name="$PROJECT_DIR$/docs/AandQ/cache/redis" />
+      <recent name="$PROJECT_DIR$/docs/AandQ/queue/rabbitmq" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -156,6 +185,7 @@
       <workItem from="1577948429377" duration="2783000" />
       <workItem from="1577951426988" duration="268000" />
       <workItem from="1577952430888" duration="398000" />
+      <workItem from="1577968368630" duration="5209000" />
     </task>
     <task id="LOCAL-00001" summary="更新git首页readme">
       <created>1577951474921</created>
@@ -191,6 +221,9 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/docs/.vuepress/dist" />
+    </ignored-roots>
     <MESSAGE value="更新git首页readme" />
     <MESSAGE value="更新在github上更新为github" />
     <option name="LAST_COMMIT_MESSAGE" value="更新在github上更新为github" />

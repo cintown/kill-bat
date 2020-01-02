@@ -17,5 +17,5 @@ Github -> [Java 常用技术 All In One](https://github.com/Meidanlong/all-in-on
 ::: warning 与我联系
 扫描二维码 或 微信搜索 kill-bat
 
-邮箱->`meidanlong@gmail.com`
+邮箱->`meidanlong@qq.com`
 :::

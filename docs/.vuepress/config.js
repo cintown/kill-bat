@@ -9,8 +9,18 @@ module.exports = {
   themeConfig: {
     nav: [
       {
-        text: '面试准备',
-        link: '/questions/'
+        text: '面试题',
+        items:[
+          {text: 'JAVA',items: [
+              {text:'基础',link:'/aq-java-basic/'},
+              {text:'JVM',link:'/aq-java-jvm/'},
+            ]},
+          {text: '缓存',items:[
+              {text:'ES',link:'/aq-cache-es/'},
+              {text:'MONGODB',link:'/aq-cache-mongodb/'},
+              {text:'REDIS',link:'/aq-cache-redis/'},
+            ]}
+        ]
       },
       {
         text: '知识点梳理',

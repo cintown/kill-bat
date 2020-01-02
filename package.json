@@ -5,5 +5,8 @@
     "delcomment": "node ./builds/delMarkdown.js",
     "lint": "prettier --write 'docs/**/*.md'",
     "release": "node scripts/release.js"
+  },
+  "dependencies": {
+    "vuepress": "^1.2.0"
   }
 }
