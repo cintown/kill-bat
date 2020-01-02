@@ -13,7 +13,7 @@ module.exports = {
         link: '/questions/'
       },
       {
-        text: '知识点梳',
+        text: '知识点梳理',
         link: '/points/'
       },
       {
