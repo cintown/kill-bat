@@ -11,39 +11,48 @@ module.exports = {
       {
         text: '面试题',
         items:[
-          {text: 'JAVA',items: [
+          {text: 'Java',items: [
               {text:'基础',link:'/aq-java-basic/'},
               {text:'JVM',link:'/aq-java-jvm/'},
             ]},
           {text: '缓存',items:[
               {text:'ES',link:'/aq-cache-es/'},
-              {text:'MONGODB',link:'/aq-cache-mongodb/'},
-              {text:'REDIS',link:'/aq-cache-redis/'},
+              {text:'MongoDB',link:'/aq-cache-mongodb/'},
+              {text:'Redis',link:'/aq-cache-redis/'},
+            ]},
+          {text:'框架',items:[
+              {text:'Spring',link:'/aq-structure-spring/'},
+              {text:'Dubbo',link:'/aq-structure-dubbo/'},
+              {text:'Netty',link:'/aq-structure-netty/'},
+              {text:'Zookeeper',link:'/aq-structure-zookeeper/'},
+            ]},
+          {text:'队列',items:[
+              {text:'RabbitMQ',link:'aq-queue-rabbitmq'}
             ]}
         ]
       },
       {
-        text: '知识点梳理',
-        link: '/points/'
+        text: '专栏',
+        items:[
+          {text:'Java进阶',link:'/blog-java-basic/'},
+          {text:'致命算法',link:'/blog-algorithms/'},
+          {text:'我用Python',link:'/blog-python/'},
+          {text:'架构之路',link:'/blog-jiagou/'},
+        ]
       },
       {
-        text: '专栏',
-        items: [{
-          text:'基础',
-          items:[
-              { text: '算法', link: '/algorithms/' },
-              { text: 'csdn', link: '/csdn/' }
-              ]
-        },
-          {
-            text:'更多',
-            items:[
-              { text: '问题处理', link: '/problems/' },
-              { text: '面经', link: '/interview/' }
-            ]
-          }
+        text: '面经',
+        items:[
+          {text:'阿里巴巴',link:'/interview-alibaba/'},
+          {text:'陌陌',link:'/interview-momo/'},
+          {text:'当当网',link:'/interview-dangdang/'},
+          {text:'汽车之家',link:'/interview-autohome/'},
+          {text:'58同城',link:'/interview-58/'},
         ]
-      } /*,
+      },{
+        text: '记录',
+        link: '/'
+      }/*,
       {
         text: '公众号',
         link: '/wechat/'
@@ -51,7 +60,7 @@ module.exports = {
     ],
     sidebar: utils.inferSiderbars(),
     lastUpdated: '上次更新',
-    repo: 'Meidanlong/kill-bat',
+    repo: 'Meidanlong/all-in-one',
     editLinks: true,
     docsDir: 'docs',
     editLinkText: 'GitHub',
