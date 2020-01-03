@@ -2,67 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32996270-bf35-4571-9de4-950ba052851c" name="Default Changelist" comment="更新git首页readme">
-      <change afterPath="$PROJECT_DIR$/docs/aq-cache-es/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/aq-cache-mongodb/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/aq-cache-redis/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/aq-continer-docker/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/aq-designpattern-singleton/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/aq-java-basic/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/aq-java-jvm/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/aq-other-net/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/aq-queue-rabbitmq/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/aq-structure-dubbo/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/aq-structure-netty/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/aq-structure-netty/netty.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/aq-structure-spring/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/aq-structure-zookeeper/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/aq-java-basic/3_aliyingye.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/aq-java-basic/4_dangdangwang.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/sidebarMap.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/sidebarMap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/algorithms/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/algorithms/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/components/comment/comment.vue" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/components/comment/comment.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/utils.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/algorithms/linkedArrary.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/algorithms/linkedArrary.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/algorithms/string.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/algorithms/string.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/algorithms/tree.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/algorithms/tree.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/csdn/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/csdn/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/csdn/jiagoushi.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/csdn/jiagoushi.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/csdn/python.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/csdn/python.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/interview/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/interview/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/interview/aliyingye.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/interview/aliyingye.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/interview/dangdangwang.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/interview/dangdangwang.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/interview/ganjiwang.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/interview/ganjiwang.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/interview/momo.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/interview/momo.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/interview/qichezhijia.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/interview/qichezhijia.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/interview/wuba.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/interview/wuba.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/points/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/points/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/points/cache.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/points/cache.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/points/container.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/points/container.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/points/designPattern.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/points/designPattern.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/points/distributed.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/points/distributed.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/points/framework.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/points/framework.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/points/front.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/points/front.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/points/java.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/points/java.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/points/messagequeue.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/points/messagequeue.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/points/net.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/points/net.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/points/operation.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/points/operation.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/problems/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/problems/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/problems/environment.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/problems/environment.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/questions/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/aq-other-os/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/questions/designPattern.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/aq-designpattern-singleton/designPattern.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/questions/dubbo.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/aq-structure-dubbo/dubbo.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/questions/elasticsearch.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/aq-cache-es/elasticsearch.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/questions/javaBasic.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/aq-java-basic/javaBasic.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/questions/jvm.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/aq-java-jvm/jvm.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/questions/mongodb.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/aq-cache-mongodb/mongodb.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/questions/net.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/aq-other-net/net.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/questions/netty.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/questions/os.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/aq-other-os/os.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/questions/rabbitmq.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/aq-queue-rabbitmq/rabbitmq.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/questions/redis.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/aq-cache-redis/redis.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/questions/threads.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/aq-java-basic/threads.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/questions/zookeeper.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/aq-structure-zookeeper/zookeeper.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/wechat/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/wechat/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/aq-java-basic/javaBasic.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/aq-java-basic/1_javaBasic.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/aq-java-basic/threads.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/aq-java-basic/2_threads.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -80,7 +27,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/aq-structure-zookeeper" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/aq-java-basic" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -90,21 +37,22 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="ts.external.directory.path" value="D:\installation\webstorm\WebStorm 2019.2.4\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/docs/aq-structure-zookeeper" />
-      <recent name="$PROJECT_DIR$/docs/aq-structure-spring" />
-      <recent name="$PROJECT_DIR$/docs/aq-structure-netty" />
-      <recent name="$PROJECT_DIR$/docs/aq-structure-dubbo" />
-      <recent name="$PROJECT_DIR$/docs/aq-queue-rabbitmq" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/docs" />
       <recent name="$PROJECT_DIR$/docs/AandQ/structure/zookeeper" />
       <recent name="$PROJECT_DIR$/docs/AandQ/java/basic" />
       <recent name="$PROJECT_DIR$/docs/AandQ/cache/redis" />
       <recent name="$PROJECT_DIR$/docs/AandQ/queue/rabbitmq" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\mine\vuepress\kill-bat\kill-bat\docs\aq-java-basic" />
+      <recent name="$PROJECT_DIR$/docs/aq-structure-zookeeper" />
+      <recent name="$PROJECT_DIR$/docs/aq-structure-spring" />
+      <recent name="$PROJECT_DIR$/docs/aq-structure-netty" />
+      <recent name="$PROJECT_DIR$/docs/aq-structure-dubbo" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -227,5 +175,22 @@
     <MESSAGE value="更新git首页readme" />
     <MESSAGE value="更新在github上更新为github" />
     <option name="LAST_COMMIT_MESSAGE" value="更新在github上更新为github" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/docs/.vuepress/components/comment/comment.vue</url>
+          <line>36</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="js.build_tools.npm">
+        <watch expression="prev" language="JavaScript" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

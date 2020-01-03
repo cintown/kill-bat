@@ -39,6 +39,8 @@
           language: 'zh-CN',
 
         };
+        // console.log(location.pathname)
+        // console.log(location.pathname.split("_")[1])
 
         const gitalk = new Gitalk(commentConfig);
         gitalk.render('gitalk-container');
