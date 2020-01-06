@@ -39,6 +39,7 @@ module.exports = {
           // {text:'Java进阶',link:'/blog-java-basic/'},
           // {text:'致命算法',link:'/blog-algorithms/'},
           {text:'我用Python',link:'/blog-python/'},
+          {text:'猜你喜欢',link:'/blog-ml/'},
           // {text:'架构之路',link:'/blog-jiagou/'},
         ]
       },{

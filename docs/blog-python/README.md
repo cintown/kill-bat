@@ -1,6 +1,7 @@
-# 引导
-
-分享自己的博客专栏
+# 写在前面
+* 本专栏记录慕课网《[全面系统python3入门+进阶课程](https://coding.imooc.com/learn/list/136.html)》课程的学习笔记。供个人使用
+* 本专栏记录慕课网《[Python分布式爬虫必学框架Scrapy打造搜索引擎](https://coding.imooc.com/learn/list/92.html)》课程的学习笔记。供个人使用
+* 深入学习请了解官网课程
 
 ---
 
