@@ -11,6 +11,8 @@ module.exports = {
       {
         text: '面试题',
         items:[
+          {text: '更新中...',link: '/'}]
+        /*items:[
           {text: 'Java',items: [
               {text:'基础',link:'/aq-java-basic/'},
               {text:'JVM',link:'/aq-java-jvm/'},
@@ -29,29 +31,25 @@ module.exports = {
           {text:'队列',items:[
               {text:'RabbitMQ',link:'aq-queue-rabbitmq'}
             ]}
-        ]
+        ]*/
       },
       {
         text: '专栏',
         items:[
-          {text:'Java进阶',link:'/blog-java-basic/'},
-          {text:'致命算法',link:'/blog-algorithms/'},
+          // {text:'Java进阶',link:'/blog-java-basic/'},
+          // {text:'致命算法',link:'/blog-algorithms/'},
           {text:'我用Python',link:'/blog-python/'},
-          {text:'架构之路',link:'/blog-jiagou/'},
+          // {text:'架构之路',link:'/blog-jiagou/'},
+        ]
+      },{
+        text: '记录',
+        items:[
+          {text:'IDEA',link:'/problems-idea/'},
         ]
       },
       {
         text: '面经',
-        items:[
-          {text:'阿里巴巴',link:'/interview-alibaba/'},
-          {text:'陌陌',link:'/interview-momo/'},
-          {text:'当当网',link:'/interview-dangdang/'},
-          {text:'汽车之家',link:'/interview-autohome/'},
-          {text:'58同城',link:'/interview-58/'},
-        ]
-      },{
-        text: '记录',
-        link: '/'
+        link: '/interview/'
       }/*,
       {
         text: '公众号',
@@ -80,5 +78,11 @@ module.exports = {
       // use more markdown-it plugins!
       md.use(require('markdown-it-include'))
     }
-  }
+  },
+
+  plugins: ['@vuepress/active-header-links',
+      {
+        sidebarLinkSelector: '.sidebar-link',
+        headerAnchorSelector: '.header-anchor'
+      }]
 }

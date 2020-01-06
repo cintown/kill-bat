@@ -14,11 +14,8 @@ const sidebarMap = [
   { title: "专栏-架构之路", dirname: "blog-jiagou" },
   { title: "专栏-致命算法", dirname: "blog-algorithms" },
   { title: "专栏-我用PYTHON", dirname: "blog-python" },
-  { title: "面经-阿里巴巴", dirname: "interview-alibaba" },
-  { title: "面经-58同城", dirname: "interview-58" },
-  { title: "面经-当当网", dirname: "interview-dangdang" },
-  { title: "面经-陌陌", dirname: "interview-momo" },
-  { title: "面经-汽车之家", dirname: "interview-autohome" },
+  { title: "记录-IDEA", dirname: "problems-idea" },
+  { title: "面经", dirname: "interview" },
 ]
 
 module.exports = sidebarMap
