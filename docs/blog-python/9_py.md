@@ -1,4 +1,4 @@
-# 类
+# 第九章：类
 
 ## 一. 大致结构
 类名建议首字母大写，并以驼峰式命名
@@ -89,6 +89,9 @@ class Student(People):
 ```python
 super(Student,self).__init__(name,age)
 ```
+
+
+
 
 
 
