@@ -1,6 +1,6 @@
 # 汽车之家
 
-![汽车之家](../.vuepress/public/qichezhijialogo.jpg)
+![汽车之家](https://s2.ax1x.com/2020/01/07/l6DYQO.jpg)
 
 ## 2019 年 9 月
 ### 面试岗位
@@ -27,21 +27,5 @@ Java开发高级工程师
 
 ### 面试建议
 建议对消息队列和redis有细致的了解
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 <comment-comment/>

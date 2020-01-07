@@ -1,6 +1,6 @@
 # 赶集网
 
-![赶集网](../.vuepress/public/ganjiwang.jpg)
+![赶集网](https://s2.ax1x.com/2020/01/07/l6D3Jx.jpg)
 
 ## 2019 年 8 月 28 日
 ### 面试岗位
@@ -63,21 +63,6 @@ java 高级开发工程师
 ### 面试建议
 
 mysql 底层知识，以及数据库的相关概念需有所了解
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <comment-comment/>

@@ -3,7 +3,7 @@
 
 **每天分享一道面试题，一道算法题**
 
-![二维码](docs/.vuepress/public/erweima.jpg)
+![二维码](https://s2.ax1x.com/2020/01/07/l6B02T.jpg)
 
 
 Base on `vuepress`

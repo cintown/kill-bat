@@ -1,6 +1,6 @@
 # 当当网
 
-![当当网](../.vuepress/public/dangdangwang.png)
+![当当网](https://s2.ax1x.com/2020/01/07/l6DNOe.png)
 
 ## 2019 年 8 月 28 日
 ### 面试岗位

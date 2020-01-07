@@ -7,7 +7,7 @@
 
 #### 欢迎关注“100 天面试”公众号
 
-![二维码](../.vuepress/public/erweima.jpg)
+![二维码](https://s2.ax1x.com/2020/01/07/l6B02T.jpg)
 
 ---
 

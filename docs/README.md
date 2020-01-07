@@ -2,7 +2,7 @@
 home: true
 heroImage: /home.jpg
 actionText: 行动 →
-actionLink: /questions/
+actionLink: /blog-note/
 
 footer: Made by Meiracle with ❤️
 ---

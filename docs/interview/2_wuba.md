@@ -1,6 +1,6 @@
 # 58 同城
 
-![58同城](../.vuepress/public/58tongchenglogo.jpg)
+![58同城](https://s2.ax1x.com/2020/01/07/l6DaeH.md.jpg)
 
 ## 2019 年 9 月
 

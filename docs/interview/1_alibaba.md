@@ -1,6 +1,6 @@
 # 阿里巴巴
 
-![阿里巴巴](../.vuepress/public/alibaba.jpg)
+![阿里巴巴](https://s2.ax1x.com/2020/01/07/l6DJSK.jpg)
 
 ## 2019 年 8 月 27 日
 
