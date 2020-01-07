@@ -46,6 +46,7 @@ module.exports = {
         text: '记录',
         items:[
           {text:'IDEA',link:'/problems-idea/'},
+          {text:'GIT',link:'/problems-git/'},
         ]
       },
       {
