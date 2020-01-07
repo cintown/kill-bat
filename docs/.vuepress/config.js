@@ -37,10 +37,14 @@ module.exports = {
     sidebar: utils.inferSiderbars(),
     lastUpdated: '上次更新',
     repo: 'Meidanlong/all-in-one',
-    editLinks: true,
+    editLinks: false,
     docsDir: 'docs',
     editLinkText: 'GitHub',
-    sidebarDepth: 3
+    sidebarDepth: 3,
+    algolia: {
+      applicationID:'9PW9QDHYJ2',
+      apiKey: 'b1612e42b87025f9813a09e2a82a9aec'
+    }
   },
   configureWebpack: {
     resolve: {
