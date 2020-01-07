@@ -1,4 +1,4 @@
-# Numpy
+# 第三章：Numpy
 
 ## 一.  Python List 的特点
 
@@ -197,6 +197,10 @@ left, right = np.hsplit(A, [2])
 
 
 ```
+
+
+
+
 
 
 <comment-comment/>
