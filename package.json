@@ -7,6 +7,11 @@
     "release": "node scripts/release.js"
   },
   "dependencies": {
-    "vuepress": "^1.2.0"
+    "vuepress": "^1.2.0",
+    "yarn": "^1.21.1"
+  },
+  "devDependencies": {
+    "@vuepress/plugin-active-header-links": "^1.2.0",
+    "@vuepress/plugin-search": "^1.2.0"
   }
 }
