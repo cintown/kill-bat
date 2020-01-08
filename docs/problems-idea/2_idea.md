@@ -7,9 +7,4 @@
 </component>
 ```
 
-
-
-
-
-
 <comment-comment/>

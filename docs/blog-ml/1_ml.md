@@ -6,5 +6,4 @@
 [官网下载](https://www.anaconda.com/distribution/#download-section)
 
 [国内镜像下载](https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/)    
-
 <comment-comment/>

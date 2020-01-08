@@ -120,9 +120,4 @@ print(r'c:\north')
 # 从第0位到第8位左闭右开区间，步长为2
 ```
 
-
-
-
-
-
 <comment-comment/>
