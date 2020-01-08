@@ -14,19 +14,19 @@ module.exports = {
           {text: '更新中...',link: '/'}]
       },
       {
-        text: '专栏',
+        text: '笔记',
         items:[
-          {text:'我用Python',link:'/blog-python/'},
-          {text:'猜你喜欢',link:'/blog-ml/'},
-          {text:'',items:[
-                {text:'随笔',link:'/blog-note/'},
-            ]},
+          {text:'Python入门',link:'/blog-python/'},
+          {text:'机器学习入门',link:'/blog-ml/'},
         ]
       },{
         text: '记录',
         items:[
-          {text:'IDEA',link:'/problems-idea/'},
-          {text:'GIT',link:'/problems-git/'},
+          {text:'IDEA',link:'/note-idea/'},
+          {text:'TOMCAT',link:'/note-tomcat/'},
+          {text:'GRADLE',link:'/note-gradle/'},
+          {text:'GIT',link:'/note-git/'},
+          {text:'SPRING',link:'/note-spring/'}
         ]
       },
       {
