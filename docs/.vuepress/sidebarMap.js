@@ -6,6 +6,7 @@ const sidebarMap = [
   { title: "记录-TOMCAT", dirname: "note-tomcat" },
   { title: "记录-GRADLE", dirname: "note-gradle" },
   { title: "记录-GIT", dirname: "note-git" },
+  { title: "记录-MYSQL", dirname: "note-mysql" },
   { title: "面经", dirname: "interview" },
 ]
 

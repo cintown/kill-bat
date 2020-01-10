@@ -26,7 +26,8 @@ module.exports = {
           {text:'TOMCAT',link:'/note-tomcat/'},
           {text:'GRADLE',link:'/note-gradle/'},
           {text:'GIT',link:'/note-git/'},
-          {text:'SPRING',link:'/note-spring/'}
+          {text:'SPRING',link:'/note-spring/'},
+          {text:'MYSQL',link:'/note-mysql/'}
         ]
       },
       {
