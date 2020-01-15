@@ -18,16 +18,18 @@ module.exports = {
         items:[
           {text:'Python入门',link:'/blog-python/'},
           {text:'机器学习入门',link:'/blog-ml/'},
+          {text:'Springboot2深度实践',link:'/blog-springboot2/'},
         ]
       },{
         text: '记录',
         items:[
-          {text:'IDEA',link:'/note-idea/'},
-          {text:'TOMCAT',link:'/note-tomcat/'},
-          {text:'GRADLE',link:'/note-gradle/'},
-          {text:'GIT',link:'/note-git/'},
-          {text:'SPRING',link:'/note-spring/'},
-          {text:'MYSQL',link:'/note-mysql/'}
+          {text:'Idea',link:'/note-idea/'},
+          {text:'Tomcat',link:'/note-tomcat/'},
+          {text:'Gradle',link:'/note-gradle/'},
+          {text:'Git',link:'/note-git/'},
+          {text:'Spring',link:'/note-spring/'},
+          {text:'MySQL',link:'/note-mysql/'},
+          {text:'Windows',link:'/note-windows/'},
         ]
       },
       {
