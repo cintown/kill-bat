@@ -4,13 +4,17 @@
 set -e
 
 # 更新代码
-git pull 
+git pull
 
 # 生成静态文件
 npm run build
 
 # 进入生成的文件夹
 cd docs/.vuepress/dist
+
+# 暂时在index.html的第11行添加
+echo "添加百度统计代码"
+sed -i '11a 	<script>var _hmt = _hmt || [];(function() {var hm = document.createElement("script");hm.src = "https://hm.baidu.com/hm.js?52b560bdf54963ade216e813ed869ec3";var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(hm, s);})();</script>' index.html
 
 #创建.nojekyll 防止Github Pages build错误
 touch .nojekyll
