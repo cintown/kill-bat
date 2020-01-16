@@ -19,6 +19,7 @@ module.exports = {
           {text:'Python入门',link:'/blog-python/'},
           {text:'机器学习入门',link:'/blog-ml/'},
           {text:'Springboot2深度实践',link:'/blog-springboot2/'},
+          {text:'短视频小程序开发',link:'/blog-wx/'},
         ]
       },{
         text: '记录',

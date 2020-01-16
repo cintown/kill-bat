@@ -2,6 +2,7 @@ const sidebarMap = [
   { title: "笔记-Python3入门", dirname: "blog-python" },
   { title: "笔记-机器学习入门", dirname: "blog-ml" },
   { title: "笔记-Springboot2深度实践", dirname: "blog-springboot2" },
+  { title: "笔记-短视频小程序开发", dirname: "blog-wx" },
   { title: "记录-Spring深度解析", dirname: "note-spring" },
   { title: "记录-Idea", dirname: "note-idea" },
   { title: "记录-Tomcat", dirname: "note-tomcat" },
