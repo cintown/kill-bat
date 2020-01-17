@@ -111,4 +111,5 @@ knn_clf.score(X_test_standard, y_test)
 注意，此时不能传入没有归一化的数据！否则数据不正确
 
 ```
-<comment-comment/>
+
+<comment-comment/><comment/>

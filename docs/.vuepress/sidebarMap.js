@@ -11,6 +11,7 @@ const sidebarMap = [
   { title: "记录-MySQL", dirname: "note-mysql" },
   { title: "记录-Windows", dirname: "note-windows" },
   { title: "面经", dirname: "interview" },
+  { title: "历史", dirname: "history" },
 ]
 
 module.exports = sidebarMap

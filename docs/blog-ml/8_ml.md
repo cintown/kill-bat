@@ -149,4 +149,5 @@ self.a_ = num / d
 self.a_ = (x_train - x_mean).dot(y_train - y_mean) / (x_train - x_mean).dot(x_train - x_mean)
 ```
 * 性能有可观提升
-<comment-comment/>
+
+<comment-comment/><comment/>

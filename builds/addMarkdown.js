@@ -9,7 +9,7 @@ function writeComponents(dir) {
   var namearray = dir.split('README')
   if (namearray.length === 1) {
     // \n<comment-comment/>
-    fs.appendFile(dir, `<comment-comment/>`, err => {
+    fs.appendFile(dir, `<comment/>`, err => {
       if (err) throw err
       console.log(`add components to ${dir}`)
     })

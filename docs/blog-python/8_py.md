@@ -116,4 +116,4 @@ print(c)
 全局变量，在被导入其他模块（其他python文件）也可以使用
 
 
-<comment-comment/>
+<comment-comment/><comment/>

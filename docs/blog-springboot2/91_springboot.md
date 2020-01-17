@@ -1,7 +1,6 @@
-# 初识Reactive
+# Reactive定义
 
-## 一. 定义
-### 1. [The Reactive Manifesto](https://www.reactivemanifesto.org/)
+## 一. [The Reactive Manifesto](https://www.reactivemanifesto.org/)
 > Reactive Systems are: Responsive, Resilient, Elastic and Message Driven
 
 关键字：
@@ -14,7 +13,7 @@
 * 面向 Reactive 系统
 * Reactive 系统原则
 
-### 2. [维基百科](https://en.wikipedia.org/wiki/Reactive_programming)
+## 二. [维基百科](https://en.wikipedia.org/wiki/Reactive_programming)
 > Reactive programming is a declarative programming paradigm concerned with **data streams** and the **propagation of change**.
  With this paradigm it is possible to express static (e.g. arrays) or dynamic (e.g. event emitters) data streams with ease, 
  and also communicate that an inferred dependency within the associated execution model exists, 
@@ -35,7 +34,7 @@
 * 传播变化：Java `Observable`/`Observer`
 * 事件：Java `EventObject`/`EventListener`
 
-### 3. [Spring Framework](https://docs.spring.io/spring/docs/current/spring-framework-reference/web-reactive.html#webflux-why-reactive)
+## 三. [Spring Framework](https://docs.spring.io/spring/docs/current/spring-framework-reference/web-reactive.html#webflux-why-reactive)
 > The term "reactive" refers to programming models that are built around **reacting to change** — network component reacting to I/O events, 
 UI controller reacting to mouse events, etc. In that sense **non-blocking** is reactive because instead of being blocked we are now in the mode of reacting to notifications as operations complete or data becomes available
 
@@ -52,7 +51,7 @@ UI controller reacting to mouse events, etc. In that sense **non-blocking** is r
 * 非阻塞：Servlet 3.1 `ReadListener`/`WriteListener`
 * 响应通知：Servlet 3.0 `AsyncListener`
 
-### 4. [ReactiveX](http://reactivex.io/intro.html)
+## 四. [ReactiveX](http://reactivex.io/intro.html)
 > ReactiveX extends the observer pattern to support sequences of data and/or events and adds operators 
 that allow you to compose sequences together declaratively 
 while abstracting away concerns about things like low-level threading, synchronization, thread-safety, concurrent data structures, and non-blocking I/O
@@ -75,7 +74,7 @@ while abstracting away concerns about things like low-level threading, synchroni
 * 数据操作：Java 8 `Stream`
 * 屏蔽并发细节（abstracting away...）：`Exectuor`、`Future`、`Runnable`
 
-### 5. [Reactor](https://projectreactor.io/docs/core/release/reference/)
+## 五. [Reactor](https://projectreactor.io/docs/core/release/reference/)
 > The reactive programming paradigm is often presented in object-oriented languages as an extension of the Observer design pattern. One can also compare the main reactive streams pattern with the familiar Iterator design pattern, as there is a duality to the Iterable-Iterator pair in all of these libraries. One major difference is that, while an Iterator is pull-based,reactive streams are push-based
 
 关键字：
@@ -94,7 +93,7 @@ while abstracting away concerns about things like low-level threading, synchroni
 * 响应流模式：Java 8 `Stream`
 * 迭代器模式：Java  `Iterator`
 
-### 6. 作者描述[@andrestaltz](https://twitter.com/andrestaltz)
+## 六. 作者描述[@andrestaltz](https://twitter.com/andrestaltz)
 > Reactive programming is programming with asynchronous data streams.
 > 
 > In a way, **this isn't anything new**. Event buses or your typical click events are really an asynchronous event stream, on which you can observe and do some side effects. Reactive is that **idea on steroids**. You are able to create data streams of anything, not just from click and hover events. Streams are cheap and ubiquitous, anything can be a stream: variables, user inputs, properties, caches, data structures, etc
@@ -114,4 +113,7 @@ while abstracting away concerns about things like low-level threading, synchroni
 * 异步：Java `Future`
 * 数据流：Java 8 `Stream`
 
-<comment-comment/>
+
+
+
+<comment-comment/><comment/>

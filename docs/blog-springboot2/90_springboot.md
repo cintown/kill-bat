@@ -86,7 +86,11 @@ protected void doLoad() {
 
 #### 4.4 Reactive Streams JVM 认为异步系统和资源消费需要特殊处理
 官网观点归纳：
-* 流式数据容量南里预判
+* 流式数据容量难以预判
 * 异步编程复杂
 * 数据源和消费端之间资源消费难以平衡
+
+
+
 <comment-comment/>
+<comment/>

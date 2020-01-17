@@ -46,4 +46,4 @@ type({1,2,3})
 key-value
 
 
-<comment-comment/>
+<comment-comment/><comment/>

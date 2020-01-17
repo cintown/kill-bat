@@ -36,7 +36,11 @@ module.exports = {
       {
         text: '面经',
         link: '/interview/'
-      }
+      },
+        {
+            text: '历史',
+            link: '/history/'
+        }
     ],
     sidebar: utils.inferSiderbars(),
     lastUpdated: '上次更新',
