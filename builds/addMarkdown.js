@@ -8,7 +8,7 @@ function writeComponents(dir) {
   // 禁止在引导页面添加评论
   var namearray = dir.split('README')
   if (namearray.length === 1) {
-    // \n<comment-comment/>
+    // \n
     fs.appendFile(dir, `<comment/>`, err => {
       if (err) throw err
       console.log(`add components to ${dir}`)

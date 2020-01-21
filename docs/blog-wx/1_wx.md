@@ -45,5 +45,6 @@
 
 ### 4. index.wxss
 私有样式
-<comment-comment/>
+
+
 <comment/>

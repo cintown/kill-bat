@@ -10,6 +10,9 @@ const sidebarMap = [
   { title: "记录-Git", dirname: "note-git" },
   { title: "记录-MySQL", dirname: "note-mysql" },
   { title: "记录-Windows", dirname: "note-windows" },
+  { title: "记录-Python", dirname: "note-python" },
+  { title: "记录-Scrapy", dirname: "note-scrapy" },
+  { title: "记录-Vue", dirname: "note-vue" },
   { title: "面经", dirname: "interview" },
   { title: "历史", dirname: "history" },
 ]

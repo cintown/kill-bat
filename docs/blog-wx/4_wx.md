@@ -103,5 +103,6 @@ touchforcechange|在支持 3D Touch 的 iPhone 设备，重按时会触发
 
 ### 2. 非冒泡事件
 当一个组件上的事件被触发后，该事件不会向父节点传递
-<comment-comment/>
+
+
 <comment/>

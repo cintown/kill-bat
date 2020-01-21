@@ -66,4 +66,5 @@ var localValue = 'b'
 // If a.js it run before b.js, now the globalData shoule be 2.
 console.log(getApp().globalData)
 ```
+
 <comment/>

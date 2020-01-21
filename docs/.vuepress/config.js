@@ -31,6 +31,9 @@ module.exports = {
           {text:'Spring',link:'/note-spring/'},
           {text:'MySQL',link:'/note-mysql/'},
           {text:'Windows',link:'/note-windows/'},
+          {text:'Python',link:'/note-python/'},
+          {text:'Scrapy',link:'/note-scrapy/'},
+          {text:'Vue',link:'/note-vue/'},
         ]
       },
       {
