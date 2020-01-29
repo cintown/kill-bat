@@ -20,6 +20,7 @@ module.exports = {
           {text:'机器学习入门',link:'/blog-ml/'},
           {text:'Springboot2深度实践',link:'/blog-springboot2/'},
           {text:'短视频小程序开发',link:'/blog-wx/'},
+          {text:'横扫初级前端JS',link:'/blog-js/'},
         ]
       },{
         text: '记录',
@@ -34,6 +35,7 @@ module.exports = {
           {text:'Python',link:'/note-python/'},
           {text:'Scrapy',link:'/note-scrapy/'},
           {text:'Vue',link:'/note-vue/'},
+          {text:'WXdevtools',link:'/note-wxtool/'},
         ]
       },
       {
