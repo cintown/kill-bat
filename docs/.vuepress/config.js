@@ -67,6 +67,7 @@ module.exports = {
             text: '系统',
             items:[
               {text:'Windows',link:'/note-windows/'},
+              {text:'Linux',link:'/note-linux/'},
             ]
           },{
             text: '语言',

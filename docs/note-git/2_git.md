@@ -20,3 +20,4 @@ $ git config --global user.email "your_email@example.com"
 // 同样可以查看确认一下：  
 $ git config --global user.email  
 ```
+<comment/>
