@@ -14,39 +14,85 @@ module.exports = {
           {text: '更新中...',link: '/'}]
       },
       {
-        text: '笔记',
+        text: '博客笔记',
         items:[
-          {text:'Python笔记',link:'/blog-python/'},
-          {text:'机器学习',link:'/blog-ml/'},
-          {text:'Springboot2深度实践',link:'/blog-springboot2/'},
-          {text:'短视频小程序开发',link:'/blog-wx/'},
-          {text:'横扫初级前端JS',link:'/blog-js/'},
-          {text:'Cocos Creator入门',link:'/blog-cocos/'},
+          {
+            text:'语言',
+            items:[
+              {text:'Python笔记',link:'/blog-python/'},
+            ]
+          },{
+            text:'后端',
+            items:[
+              {text:'Springboot2深度实践',link:'/blog-springboot2/'},
+              {text:'Spring源码深度解析',link:'/blog-spring-sdjx/'},
+              {text:'Scrapy分布式爬虫',link:'/blog-scrapy/'},
+            ]
+          },{
+            text:'前端',
+            items:[
+              {text:'横扫初级前端JS',link:'/blog-js/'},
+            ]
+          },{
+            text:'微信系',
+            items:[
+              {text:'短视频小程序开发',link:'/blog-wx/'},
+              {text:'小游戏开发',link:'/blog-wxgame/'},
+              {text:'Cocos Creator入门',link:'/blog-cocos/'},
+            ]
+          },{
+            text:'人工智能',
+            items:[
+              {text:'机器学习',link:'/blog-ml/'},
+            ]
+          }
         ]
       },{
-        text: '记录',
+        text: '问题解决',
         items:[
-          {text:'Idea',link:'/note-idea/'},
-          {text:'Tomcat',link:'/note-tomcat/'},
-          {text:'Gradle',link:'/note-gradle/'},
-          {text:'Git',link:'/note-git/'},
-          {text:'Spring',link:'/note-spring/'},
-          {text:'MySQL',link:'/note-mysql/'},
-          {text:'Windows',link:'/note-windows/'},
-          {text:'Python',link:'/note-python/'},
-          {text:'Scrapy',link:'/note-scrapy/'},
-          {text:'Vue',link:'/note-vue/'},
-          {text:'WXdevtools',link:'/note-wxtool/'},
+          {
+            text: '开发工具',
+            items:[
+              {text:'Idea',link:'/note-idea/'},
+              {text:'WXdevtools',link:'/note-wxtool/'},
+            ]
+          },{
+            text: '插件',
+            items:[
+              {text:'Tomcat',link:'/note-tomcat/'},
+              {text:'Gradle',link:'/note-gradle/'},
+              {text:'Git',link:'/note-git/'},
+            ]
+          },{
+            text: '系统',
+            items:[
+              {text:'Windows',link:'/note-windows/'},
+            ]
+          },{
+            text: '语言',
+            items:[
+              {text:'Python',link:'/note-python/'},
+            ]
+          },{
+            text: '框架',
+            items:[
+              {text:'Spring',link:'/note-spring/'},
+              {text:'Scrapy',link:'/note-scrapy/'},
+              {text:'Vue',link:'/note-vue/'},
+              {text:'React',link:'/note-react/'},
+            ]
+          },{
+            text: '数据库',
+            items:[
+              {text:'MySQL',link:'/note-mysql/'},
+            ]
+          }
         ]
       },
       {
         text: '面经',
         link: '/interview/'
-      },
-        {
-            text: '历史',
-            link: '/history/'
-        }
+      }
     ],
     sidebar: utils.inferSiderbars(),
     lastUpdated: '上次更新',
