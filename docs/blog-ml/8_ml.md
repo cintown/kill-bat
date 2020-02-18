@@ -150,4 +150,6 @@ self.a_ = (x_train - x_mean).dot(y_train - y_mean) / (x_train - x_mean).dot(x_tr
 ```
 * 性能有可观提升
 
+
+
 <comment/>

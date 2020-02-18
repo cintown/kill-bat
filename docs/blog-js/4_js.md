@@ -374,13 +374,16 @@ xhr.send(JSON.stringify(postData))
 * 前端：http://a.com:8080/ ; server: https://b.com/api/xxx -> 协议、域名和端口均不同，属于非同源
 
 * 加载图片、css和js可无视同源策略
-> * <img src="跨域的图片地址">
-> * <link href="跨域的css地址">
-> * <script src="跨域的js地址"></script>
+```javascript
+<img src="跨域的图片地址">
+<link href="跨域的css地址">
+<script src="跨域的js地址"> </script>
 
-* <img/> 可用于统计打点，可使用第三方统计服务
-* <link/> <script> 可使用CDN，CDN一般都是外域
-* <script> 可实现JSONP
+<img/> 可用于统计打点，可使用第三方统计服务
+<link/> <script> 可使用CDN，CDN一般都是外域
+<script> 可实现JSONP
+```
+
 
 ### 4.3 跨域
 * 所有的跨域，都必须经过server端允许和配合
@@ -388,7 +391,9 @@ xhr.send(JSON.stringify(postData))
 * 未经server端允许就实现跨域，说明浏览器有漏洞，危险信号
 
 #### 4.3.1 JSONP
-* <script> 标签可以跨域
+```javascript
+<script> 标签可以跨域
+```
 
 * 服务端可以拼接任意数据返回
 
@@ -445,5 +450,9 @@ localStorage.getItem('a') // "100" 强制类型转换为字符串
 sessionStorage.setItem('b',200)
 sessionStorage.getItem('b') // "200"
 ```
+
+
+
+
 
 <comment/>

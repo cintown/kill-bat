@@ -100,4 +100,6 @@ public interface Processor<T, R> extends Subscriber<T>, Publisher<R> {
 ### 4. 总结背压
 假设下游Subscriber工作在无边界大小的数据流水线时，当上游Publisher提供数据的速率快于下游Subscriber的消费数据速率时，下游Subscriber将通过传播信号（request）到上游Publisher，请求限制数据的数量（ Demand ）或通知上游停止数据生产
 
+
+
 <comment/>

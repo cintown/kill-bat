@@ -60,4 +60,5 @@ function getData(url) {
 ### 1.3 应用场景
 * 网络请求，如ajax图片加载
 * 定时任务，如setTimeOut
+
 <comment/>

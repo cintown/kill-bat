@@ -75,4 +75,6 @@ springmvc框架提供了多种View视图类型,如:jstlView、freemarkerView、p
 View是一个接口，实现类支持不同的View类型（jsp、freemarker、pdf...）
 
 ```
+
+
 <comment/>

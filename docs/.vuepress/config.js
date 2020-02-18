@@ -16,11 +16,12 @@ module.exports = {
       {
         text: '笔记',
         items:[
-          {text:'Python入门',link:'/blog-python/'},
-          {text:'机器学习入门',link:'/blog-ml/'},
+          {text:'Python笔记',link:'/blog-python/'},
+          {text:'机器学习',link:'/blog-ml/'},
           {text:'Springboot2深度实践',link:'/blog-springboot2/'},
           {text:'短视频小程序开发',link:'/blog-wx/'},
           {text:'横扫初级前端JS',link:'/blog-js/'},
+          {text:'Cocos Creator入门',link:'/blog-cocos/'},
         ]
       },{
         text: '记录',

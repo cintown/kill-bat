@@ -4,6 +4,7 @@ const sidebarMap = [
   { title: "笔记-Springboot2深度实践", dirname: "blog-springboot2" },
   { title: "笔记-短视频小程序开发", dirname: "blog-wx" },
   { title: "笔记-横扫初级前端JS", dirname: "blog-js" },
+  { title: "笔记-Cocos Creator入门", dirname: "blog-cocos" },
   { title: "记录-Spring深度解析", dirname: "note-spring" },
   { title: "记录-Idea", dirname: "note-idea" },
   { title: "记录-Tomcat", dirname: "note-tomcat" },
