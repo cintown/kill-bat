@@ -158,3 +158,4 @@ mybatis:
 // 扫描mybatis通用mapper所在的包
 @MapperScan(basePackages = {"com.wt.mapper","com.wt.mymapper"})
 ```
+<comment/>
