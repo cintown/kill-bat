@@ -43,11 +43,11 @@ public class Swagger2 {
 
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
-                .title("天天吃货 电商平台接口api")        // 文档页标题
+                .title("弹幕博客接口api")        // 文档页标题
                 .contact(new Contact("Meiracle",
                         "https://www.killbat.cn",
                         "meidanlong@qq.com"))        // 联系人信息
-                .description("专为天天吃货提供的api文档")  // 详细信息
+                .description("专为弹幕博客提供的api文档")  // 详细信息
                 .version("1.0.1")   // 文档版本号
                 .termsOfServiceUrl("https://www.wt.cn") // 网站地址
                 .build();
@@ -82,3 +82,4 @@ public class Swagger2 {
 ```java
 @ApiProperty(value= "值", name= "名称", example= "举例", require= true)
 ```
+<comment/>
