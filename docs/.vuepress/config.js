@@ -14,6 +14,11 @@ module.exports = {
           {text: '更新中...',link: '/'}]
       },
       {
+        text: '系列文章',
+        items:[
+          {text: '弹幕博客',link: '/serious-dmblog/'}]
+      },
+      {
         text: '博客笔记',
         items:[
           {

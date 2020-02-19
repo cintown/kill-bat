@@ -1,4 +1,5 @@
 const sidebarMap = [
+  { title: "系列-弹幕博客", dirname: "serious-dmblog" },
   { title: "笔记-Python3入门", dirname: "blog-python" },
   { title: "笔记-机器学习入门", dirname: "blog-ml" },
   { title: "笔记-Springboot2深度实践", dirname: "blog-springboot2" },
