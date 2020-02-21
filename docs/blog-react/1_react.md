@@ -15,9 +15,10 @@ cd my-app
 npm start
 ```
 
-::: warn 注意
+::: warning 注意
 第一行的 npx 不是拼写错误 —— 它是 npm 5.2+ 附带的 package 运行工具。
 :::
+
 
 
 
