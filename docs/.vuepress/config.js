@@ -37,6 +37,7 @@ module.exports = {
             text:'前端',
             items:[
               {text:'横扫初级前端JS',link:'/blog-js/'},
+              {text:'React开发简书项目',link:'/blog-react/'},
             ]
           },{
             text:'微信系',
