@@ -50,3 +50,4 @@ ReactDOM.render(<Component1 />, document.getElementById('root'));
 
 * `<Component1 />`为jsx语法，使用该语法需引入React，否则编译失败
 * render函数中的`<div>`标签，也属于jsx语法，同样需引入React
+<comment/>

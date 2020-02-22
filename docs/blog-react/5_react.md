@@ -2,7 +2,7 @@
 
 ## 一. 响应式思想
 * 不直接操作DOM
-* 操作数据，React自动感知到数据的变化，自动生成DOM
+* 数据驱动，React自动感知到数据的变化，自动生成DOM
 
 ## 二. 定义数据
 * React的类都有自己的构造方法 -> contructor(){}
@@ -36,3 +36,4 @@
 > 将state的list原有数据拿出，生成一个新的数组
 
 * immutable -> state不允许我们做任何改变，需拷贝state对应变量的副本，修改副本，在setState回去
+<comment/>
