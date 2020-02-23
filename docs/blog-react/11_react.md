@@ -7,4 +7,5 @@
 > state 是本组件的属性，props 是接收的父组件传过来的值
 
 * 当父组件的 render 函数被执行时，它的子组件的 render 都将会重新运行
+
 <comment/>

@@ -82,4 +82,5 @@ public class Swagger2 {
 ```java
 @ApiProperty(value= "值", name= "名称", example= "举例", require= true)
 ```
+
 <comment/>

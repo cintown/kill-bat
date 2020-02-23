@@ -94,4 +94,5 @@
     1. @SpringBootApplication -> springboot入口启动注解
     2. @ComponentScan(basePackages = {"com.wt","org.n3r.idworker"}) -> 扫描所有包及相关组件包,可传数组
 
+
 <comment/>
