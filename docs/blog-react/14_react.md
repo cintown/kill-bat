@@ -4,3 +4,8 @@
 
 ## 一. 图示
 ![14-1](https://s2.ax1x.com/2020/02/22/3Q2aX8.md.png)
+
+## 二. 实践
+### 1. componentDidMount
+* 页面完成挂载，在当前页面该方法只执行一次，适用于获取ajax数据请求
+<comment/>

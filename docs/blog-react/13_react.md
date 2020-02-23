@@ -24,3 +24,4 @@ this.input.value
 ### 3. 注意
 * 这种方法可以直接操作DOM元素，React中是不推荐使用的
 * 要获取正确的DOM元素，应该在异步的方法，如（setState方法）结束后调用,这里可以使用setState的回调方法
+<comment/>
