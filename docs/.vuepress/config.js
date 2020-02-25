@@ -54,7 +54,7 @@ module.exports = {
           }
         ]
       },{
-        text: '问题解决',
+        text: '问题随笔',
         items:[
           {
             text: '开发工具',
