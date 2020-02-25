@@ -14,7 +14,7 @@ function writeComponents(dir) {
             if(content.split('<comment/>').length > 1){
                 // 说明已包含评论组件
             }else{
-                fs.appendFile(dir, `<comment/>`, err => {
+                fs.appendFile(dir, `\n<comment/>`, err => {
                     if (err) throw err
                     // console.log(`add components to ${dir}`)
                 })
