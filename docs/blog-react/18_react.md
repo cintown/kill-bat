@@ -12,3 +12,5 @@
 * 无状态组件其实就是一个函数，执行效率高
 * 可接受props参数，并且不需要this.props. -> props.
 
+
+<comment/>
