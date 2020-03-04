@@ -121,6 +121,7 @@
 
 ## 五. 去除默认样式
 ### 1. CSS RESET
+[传送门](../blog-react/22_react.md)
 ### 2. style
 ```html
 <head>
