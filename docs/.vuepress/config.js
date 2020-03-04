@@ -30,6 +30,7 @@ module.exports = {
             text:'后端',
             items:[
               {text:'Springboot2深度实践',link:'/blog-springboot2/'},
+              {text:'SpringCloud框架记录',link:'/blog-springcloud/'},
               {text:'Spring源码深度解析',link:'/blog-spring-sdjx/'},
               {text:'Scrapy分布式爬虫',link:'/blog-scrapy/'},
             ]
@@ -37,6 +38,7 @@ module.exports = {
             text:'前端',
             items:[
               {text:'横扫初级前端JS',link:'/blog-js/'},
+              {text:'全面系统讲解CSS',link:'/blog-css/'},
               {text:'React开发简书项目',link:'/blog-react/'},
             ]
           },{
