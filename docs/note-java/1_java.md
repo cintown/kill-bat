@@ -246,3 +246,5 @@ date5:20:15:30
 [java8 新特性（拉姆达表达式 lambda） -> Rairmmd](https://blog.csdn.net/qq_35805528/article/details/53264301)<br>
 [Java 中 Lambda 表达式的使用 -> Franson](https://blog.csdn.net/qq_35805528/article/details/53264301)<br>
 [java1.8 新特性整理（全） -> 后知、后觉](https://www.cnblogs.com/xuxinstyle/p/11447820.html)<br>
+
+<comment/>
