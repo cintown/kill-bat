@@ -80,6 +80,7 @@ module.exports = {
           },{
             text: '语言',
             items:[
+              {text:'Java',link:'/note-java/'},
               {text:'Python',link:'/note-python/'},
             ]
           },{
