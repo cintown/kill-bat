@@ -1,7 +1,7 @@
 # 第四章：布局样式
 
 ## 一. 盒模型
-![4-1](https://s2.ax1x.com/2020/03/04/3I2ZW9.th.png)
+![4-1](https://s2.ax1x.com/2020/03/04/3I2ZW9.png)
 ## 二. 元素显示
 1. display 元素显示类型
 	* block/inline/inline-block/flex
