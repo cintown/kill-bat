@@ -41,3 +41,5 @@
     @RequestMapping(value = "/homepage-course/get/courses", method = RequestMethod.POST)
     List<CourseInfo> getCourseInfos(@RequestBody CourseInfosRequest request);
     ```
+
+<comment/>
