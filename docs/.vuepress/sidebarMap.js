@@ -8,6 +8,7 @@ const sidebarMap = [
   { title: "笔记-微信小游戏开发", dirname: "blog-wxgame" },
   { title: "笔记-横扫初级前端JS", dirname: "blog-js" },
   { title: "笔记-全面系统讲解CSS", dirname: "blog-css" },
+  { title: "笔记-Uni-app开发", dirname: "blog-uniapp" },
   { title: "笔记-React开发简书项目", dirname: "blog-react" },
   { title: "笔记-Cocos Creator入门", dirname: "blog-cocos" },
   { title: "笔记-Spring深度解析", dirname: "blog-spring-sdjx" },
