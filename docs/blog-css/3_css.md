@@ -52,7 +52,7 @@
 ### 1. 滚动 overflow
 
 1. 滚动行为和滚动条
-	![3-1](https://s2.ax1x.com/2020/03/04/3Iy7rT.th.png)
+	![3-1](https://s2.ax1x.com/2020/03/04/3Iy7rT.png)
 
 ### 2. 文字折行
 1. overflow-warp(word-warp)通用换行控制 -> 是否保留单词
