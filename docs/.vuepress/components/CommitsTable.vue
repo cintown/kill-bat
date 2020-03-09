@@ -6,9 +6,9 @@
                 <div class="table_week_text">
                     <div class="table_week_text_blank_top"></div>
                     <div class="table_week_text_content">
-                        <div style="margin-right: 2px; font-size: 2px">Mon</div>
-                        <div style="margin-right: 2px; font-size: 2px">Thu</div>
-                        <div style="margin-right: 2px; font-size: 2px">Sun</div>
+                        <div style="margin-right: 2px; font-size: 10px">Mon</div>
+                        <div style="margin-right: 2px; font-size: 10px">Thu</div>
+                        <div style="margin-right: 2px; font-size: 10px">Sun</div>
                     </div>
                     <div class="table_week_text_blank_bottom"></div>
                 </div>
