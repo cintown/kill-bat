@@ -10,7 +10,7 @@
 6 silly lifecycle @~prebuild: no script for prebuild, continuing
 7 info lifecycle @~build: @
 8 verbose lifecycle @~build: unsafe-perm in lifecycle true
-9 verbose lifecycle @~build: PATH: /home/meidl/app/node-v4.4.7-linux-x64/lib/node_modules/npm/bin/node-gyp-bin:/home/meidl/meidl/myself/workspace/kill-bat/node_modules/.bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/sbin:/usr/sbin
+9 verbose lifecycle @~build: PATH: /home/meidl/app/node-v4.4.7-linux-x64/lib/node_modules/npm/bin/node-gyp-bin:/home/meidl/meidl/myself/workspace/kill-bat/node_modules/.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 10 verbose lifecycle @~build: CWD: /home/meidl/meidl/myself/workspace/kill-bat
 11 silly lifecycle @~build: Args: [ '-c',
 11 silly lifecycle   'node ./builds/addMarkDownIfNotExist.js && vuepress build docs' ]

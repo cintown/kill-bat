@@ -32,6 +32,7 @@ module.exports = {
               {text:'Springboot2深度实践',link:'/blog-springboot2/'},
               {text:'SpringCloud框架记录',link:'/blog-springcloud/'},
               {text:'Spring源码深度解析',link:'/blog-spring-sdjx/'},
+              {text:'WebFlux响应式编程',link:'/blog-webflux/'},
               {text:'Scrapy分布式爬虫',link:'/blog-scrapy/'},
             ]
           },{

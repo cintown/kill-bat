@@ -1,7 +1,7 @@
 <template>
     <div class="tabel_cotainer">
         <div class="table_year">
-<!--            <div class="table_year_text"></div>-->
+            <div class="table_year_text"></div>
             <div class="tabel_year_content">
                 <div class="table_week_text">
                     <div class="table_week_text_blank_top"></div>
@@ -49,6 +49,7 @@
             this.initWeekList();
         },
         mounted () {
+            console.log(this.$refs.scrollContent);
             this.$refs.scrollContent.scrollLeft = this.scrollMax;
         },
         methods:{
@@ -100,8 +101,7 @@
     .table_year {
         display: flex;
         flex-direction: column;
-        /*margin: 10px;*/
-        margin-top: 20px;
+        margin-top: 10px;
         /* border: #007AFF solid 1px; */
         border-radius: calc(5px);
         box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.2);
@@ -117,11 +117,8 @@
     .tabel_year_content {
         display: flex;
         flex-direction: row;
-        margin-top: 17px;
-        margin-left: 10px;
-        margin-right: 10px;
+        margin: 5px;
         justify-content: flex-end;
-        height: calc(100% + 17px);
         overflow:auto;
     }
     .table_week_text {
@@ -149,12 +146,22 @@
     .scroll-content {
         white-space: nowrap;
         /*width: 90%;*/
-        margin: 0 auto;
+        margin: 0 10px;
         display: inline-block;
         flex-wrap: nowrap;
         overflow: auto;
     }
-    ::-webkit-scrollbar{width:0px}
+    /*@media (max-width: 500px){
+
+        ::-webkit-scrollbar{
+            width:0px
+        }
+    }*/
+
+    ::-webkit-scrollbar{
+            width:2px
+        }
+    
     /* .table_week {
         display:flex;
         flex-direction: column;
@@ -167,17 +174,18 @@
         vertical-align: top;
     }
     .table_month_text {
-        height: 10px;
-        width: auto;
-        line-height: 10px;
+        height: 15px;
+        width: 10px;
+        line-height: 15px;
         font-size: 10px;
         text-align: center;
         align-content: center;
+
     }
     .table_day {
         height: 10px;
         width: 10px;
-        margin: 5px;
+        margin: 2px;
     }
 
     /* 背景颜色选择 */
