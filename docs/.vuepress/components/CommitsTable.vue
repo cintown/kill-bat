@@ -10,22 +10,25 @@
                         <div style="margin-right: 2px; font-size: 10px">Thu</div>
                         <div style="margin-right: 2px; font-size: 10px">Sun</div>
                     </div>
-                    <div class="table_week_text_blank_bottom"></div>
+                    <!-- <div class="table_week_text_blank_bottom"></div> -->
                 </div>
                 <div class="scroll-content" ref="scrollContent">
-                    <div v-for="(week) in week_list" :key="week.id" :class="{'table_week': 1==1}" >
+                    <div v-for="(week) in weekList" :key="week.weekId" :class="{'table_week': true}" >
                         <div class="table_month_text" v-if="week.monthBegin">
                             {{week.whichMonth}}
                         </div>
                         <div class="table_month_text" v-else>
                         </div>
-                        <div v-for="(day) in week.day_list" :key="day.id"
-                              :class="{'table_day':true,
+                        <div 
+                        v-for="(day) in week.dayList" 
+                        :key="day.dayId" 
+                        :class="{'table_day':true,
                                 'border': true,
-                                'white':day.color=='white',
-                                'purper':day.color=='purper',
-                                'purper1':day.color=='purper1',
-                                'purper2':day.color=='purper2'}">
+                                'white':day.commitCount==0,
+                                'purper3':day.commitCount>0&&day.commitCount<=2,
+                                'purper2':day.commitCount>2&&day.commitCount<=5,
+                                'purper1':day.commitCount>5&&day.commitCount<=10
+                                }">
                         </div>
                     </div>
                 </div>
@@ -36,23 +39,31 @@
 </template>
 
 <script>
+    import axios from 'axios';
     export default {
+        name: "CommitsTable",
         data() {
             return {
                 scrollMax: 999999,
-                week_list: []
+                weekList: []
             };
         },
-        name: "CommitsTable",
         beforeMount() {
             console.log("beforeMount");
-            this.initWeekList();
+            //this.initWeekList();
+            this.getWeekList();
         },
         mounted () {
             console.log(this.$refs.scrollContent);
             this.$refs.scrollContent.scrollLeft = this.scrollMax;
         },
         methods:{
+            getWeekList(){
+                axios.get('/json/weekList.json').then((res) => {
+                    console.log(res.data.weekList);
+                    this.weekList = res.data.weekList;
+                })
+            },
             initWeekList(){
                 for(let i=1;i<=54;i++){
                     let monthBegin= false;
@@ -196,17 +207,14 @@
     .white {
         background-color: #E5E5E5;
     }
-    .lessPurper {
-        background-color: rgb(145,160,219);
-    }
-    .purper {
-        background-color: rgb(57,73,171);
-    }
     .purper1 {
-        background-color: rgba(57,73,171,0.6);
+        background-color: rgba(57,73,171);
     }
     .purper2 {
-        background-color: rgba(57,73,171,0.2);
+        background-color: rgba(57,73,171,0.7);
+    }
+    .purper3 {
+        background-color: rgba(57,73,171,0.4);
     }
 
 </style>
