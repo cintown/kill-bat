@@ -75,3 +75,4 @@ Alt+Shift+9 垂直分屏-3屏
 Ctrl+K+B 开启/关闭侧边栏。
 F11 全屏模式
 Shift+F11 免打扰模式
+<comment/>

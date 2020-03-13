@@ -11,6 +11,7 @@ const sidebarMap = [
   { title: "笔记-全面系统讲解CSS", dirname: "blog-css" },
   { title: "笔记-Uni-app开发", dirname: "blog-uniapp" },
   { title: "笔记-React开发简书项目", dirname: "blog-react" },
+  { title: "笔记-Vue从入门到实战", dirname: "blog-vue" },
   { title: "笔记-Cocos Creator入门", dirname: "blog-cocos" },
   { title: "笔记-Spring深度解析", dirname: "blog-spring-sdjx" },
   { title: "问题-Spring", dirname: "note-spring" },

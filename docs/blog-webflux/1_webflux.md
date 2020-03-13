@@ -1,4 +1,4 @@
-# 第一章: jdk8新特性
+# 第一章: 函数式编程和Lamda表达式
 
 ## 一. Lamda表达式
 1. 箭头左边是输入，箭头右边是输出
@@ -160,7 +160,7 @@ public interface Function<T, R> {
 }
 ```
 
-#### 2.4 
+#### 2.4 Supplier<T>
 ```java
 @FunctionalInterface
 public interface Supplier<T> {
@@ -186,3 +186,4 @@ System.out.println(
 
 // 3+1= 4
 ```
+<comment/>
