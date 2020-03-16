@@ -242,4 +242,78 @@ IntStream.range(1, 100)
 		}
 	}
 	```
+
+## 六. 收集器
+1. 流处理的数据收集起来到集合类
+
+### 1. 常用的收集器
+```java
+// 测试数据
+List<Student> students = Arrays.asList(
+		new Student("小明", 10, Gender.MALE, Grade.ONE),
+		new Student("大明", 9, Gender.MALE, Grade.THREE),
+		new Student("小白", 8, Gender.FEMALE, Grade.TWO),
+		new Student("小黑", 13, Gender.FEMALE, Grade.FOUR),
+		new Student("小红", 7, Gender.FEMALE, Grade.THREE),
+		new Student("小黄", 13, Gender.MALE, Grade.ONE),
+		new Student("小青", 13, Gender.FEMALE, Grade.THREE),
+		new Student("小紫", 9, Gender.FEMALE, Grade.TWO),
+		new Student("小王", 6, Gender.MALE, Grade.ONE),
+		new Student("小李", 6, Gender.MALE, Grade.ONE),
+		new Student("小马", 14, Gender.FEMALE, Grade.FOUR),
+		new Student("小刘", 13, Gender.MALE, Grade.FOUR));
+```
+
+#### 1.1 常规使用
+```java
+// 得到所有学生的年龄列表
+// s -> s.getAge() --> Student::getAge , 不会多生成一个类似 lambda$0这样的函数
+Set<Integer> ages = students.stream().map(Student::getAge)
+		.collect(Collectors.toCollection(TreeSet::new));
+System.out.println("所有学生的年龄:" + ages);
+```
+
+#### 1.2 统计
+```java
+// 统计汇总信息
+IntSummaryStatistics agesSummaryStatistics = students.stream()
+		.collect(Collectors.summarizingInt(Student::getAge));
+System.out.println("年龄汇总信息:" + agesSummaryStatistics);
+```
+
+#### 1.3 分块
+```java
+// 分块
+Map<Boolean, List<Student>> genders = students.stream().collect(
+		Collectors.partitioningBy(s -> s.getGender() == Gender.MALE));
+// System.out.println("男女学生列表:" + genders);
+MapUtils.verbosePrint(System.out, "男女学生列表", genders);
+```
+
+#### 1.4 分组
+```java
+// 分组
+Map<Grade, List<Student>> grades = students.stream()
+		.collect(Collectors.groupingBy(Student::getGrade));
+MapUtils.verbosePrint(System.out, "学生班级列表", grades);
+```
+
+#### 1.5 收集之后再收集
+```java
+// 得到所有班级学生的个数
+Map<Grade, Long> gradesCount = students.stream().collect(Collectors
+		.groupingBy(Student::getGrade, Collectors.counting()));
+MapUtils.verbosePrint(System.out, "班级学生个数列表", gradesCount);
+```
+
+## 七. Stream运行机制
+
+1. 所有操作是链式调用, 一个元素只迭代一次 
+2. 每一个中间操作返回一个新的流. 流里面有一个属性sourceStage 指向同一个 地方,就是Head 
+	> Head->nextStage->nextStage->... -> null
+3. 有状态操作会把无状态操作阶段,单独处理
+4. 并行环境下, 有状态的中间操作不能并行操作
+5. parallel/ sequetial 这2个操作也是中间操作(也是返回stream),但是他们不创建流, 他们只修改 Head的并行标志
+	> 之前我们说过，同时使用这两个函数，以最后一个为准。实际上他们都是维护同一个链表，修改不同状态，所以不会同时生效
+
 <comment/>

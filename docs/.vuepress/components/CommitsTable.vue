@@ -1,7 +1,7 @@
 <template>
     <div class="tabel_cotainer">
         <div class="table_year">
-            <div class="table_year_text"></div>
+            <!-- <div class="table_year_text"></div> -->
             <div class="tabel_year_content">
                 <div class="table_week_text">
                     <div class="table_week_text_blank_top"></div>
