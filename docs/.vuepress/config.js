@@ -41,6 +41,7 @@ module.exports = {
               {text:'横扫初级前端JS',link:'/blog-js/'},
               {text:'全面系统讲解CSS',link:'/blog-css/'},
               {text:'React开发简书项目',link:'/blog-react/'},
+              {text:'React16.8+Next.js',link:'/blog-next/'},
               {text:'Vue从入门到实战',link:'/blog-vue/'},
               {text:'Uni-app开发',link:'/blog-uniapp/'}
             ]
