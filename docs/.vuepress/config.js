@@ -67,6 +67,7 @@ module.exports = {
             items:[
               {text:'Idea',link:'/note-idea/'},
               {text:'WXdevtools',link:'/note-wxtool/'},
+              {text:'VSCode',link:'/note-vscode/'},
             ]
           },{
             text: '插件',

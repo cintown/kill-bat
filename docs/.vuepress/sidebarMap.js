@@ -18,6 +18,7 @@ const sidebarMap = [
   { title: "问题-Spring", dirname: "note-spring" },
   { title: "问题-Idea", dirname: "note-idea" },
   { title: "问题-Tomcat", dirname: "note-tomcat" },
+  { title: "问题-VSCode", dirname: "note-vscode" },
   { title: "问题-Gradle", dirname: "note-gradle" },
   { title: "问题-Git", dirname: "note-git" },
   { title: "问题-MySQL", dirname: "note-mysql" },
