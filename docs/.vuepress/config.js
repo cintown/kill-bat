@@ -75,6 +75,7 @@ module.exports = {
               {text:'Tomcat',link:'/note-tomcat/'},
               {text:'Gradle',link:'/note-gradle/'},
               {text:'Git',link:'/note-git/'},
+              {text:'Chrome',link:'/note-chrome/'},
             ]
           },{
             text: '系统',
