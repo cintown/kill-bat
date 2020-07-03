@@ -20,7 +20,7 @@ sed -i '11a 	<script>var _hmt = _hmt || [];(function() {var hm = document.create
 touch .nojekyll
 
 # 发布到域名
-echo 'www.killbat.cn' > CNAME
+echo 'www.wtrue.cn' > CNAME
 
 git init
 git add -A
@@ -36,5 +36,3 @@ git push -f "https://github.com/Meidanlong/meidanlong.github.io.git" master
 git push -f "https://gitee.com/meidanlong/kill-bat.git" master:gh-pages
 
 #git push -f "git@gitee.com:Meidanlong/meidanlong.gitee.io.git" master
-
-cd -
