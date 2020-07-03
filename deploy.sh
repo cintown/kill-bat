@@ -9,6 +9,7 @@ git pull
 # 生成静态文件
 npm run build
 
+echo "进入dist"
 # 进入生成的文件夹
 cd docs/.vuepress/dist
 
@@ -22,8 +23,9 @@ touch .nojekyll
 # 发布到域名
 echo 'www.wtrue.cn' > CNAME
 
+echo "git提交"
 git init
-git add -A
+git add .
 git commit -m 'deploy'
 
 #git push -f "https://git@github.com/Meidanlong/kill-bat.git" master:gh-pages
@@ -33,6 +35,6 @@ git push -f "https://github.com/Meidanlong/kill-bat.git" master:gh-pages
 git push -f "https://github.com/Meidanlong/meidanlong.github.io.git" master
 
 #git push -f "https://git@gitee.com/meidanlong/kill-bat.git" master:gh-pages
-git push -f "https://gitee.com/meidanlong/kill-bat.git" master:gh-pages
+git push -f "https://gitee.com/meidanlong/wtrue.git" master:master
 
 #git push -f "git@gitee.com:Meidanlong/meidanlong.gitee.io.git" master
